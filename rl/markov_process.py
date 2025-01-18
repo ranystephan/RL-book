@@ -81,7 +81,9 @@ class MarkovProcess(ABC, Generic[S]):
         start state from the given distribution each time.
 
         '''
+        print("QAAAAAAAAAAJSHAKJSHAKHSKJH")
         while True:
+            print(self.simulate(start_state_distribution))
             yield self.simulate(start_state_distribution)
 
 
